@@ -94,11 +94,13 @@ def get_results(url):
         browser.close()
 
         data = []
+        gi = 0
         for l, p, r in zip(team_left, points, team_right):
             if len(p):
-                data.append([l, p[0], r, p[1]])
+                gi += 1
+                data.append([l, p[0], r, p[1], gi])
 
-        df = pd.DataFrame(data, columns=['C1', 'C1S', 'C2', 'C2S'])
+        df = pd.DataFrame(data, columns=['C1', 'C1S', 'C2', 'C2S', 'GI'])
         return df
 
 
