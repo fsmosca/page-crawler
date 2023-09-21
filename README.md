@@ -6,11 +6,19 @@ A playwright script to get FIBA game match results from FIBA World Cup 2023 and 
 
 #### 1. worldcup2023.py
 
-Used to get match result in the world cup 2023 games. Results are saved in csv file. You need to create a folder path `data/worldcup/2023` to save the csv file.
+Used to get match result from the world cup 2023 games. Results are saved in csv file. You need to create a folder path `data/worldcup/2023` to save the csv file.
 
 #### 2. olympics2020.py
 
-Used to get match result in the Tokyo olympics 2020 games. Results are saved in csv file. You need to create a folder path `data/olympics/2020` to save the csv file.
+Used to get match result from the Tokyo olympics 2020 games. Results are saved in csv file. You need to create a folder path `data/olympics/2020` to save the csv file.
+
+#### 3. worldcup2019.py
+
+Used to get match results from world cup 2019. Results are saved in csv file. You need to create a folder path `data/worldcup/2019` to save the csv file.
+
+#### 4. worldcup2014.py
+
+Used to get match results from world cup 2014. Results are saved in csv file. You need to create a folder path `data/worldcup/2014` to save the csv file.
 
 ## Setup
 
