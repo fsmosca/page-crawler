@@ -92,8 +92,6 @@ def get_results(url):
             d = tr.query_selector('div.name')
             team_right.append(d.inner_text())
 
-        print(game_date)
-
         browser.close()
 
         data = []
