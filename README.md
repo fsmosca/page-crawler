@@ -1,6 +1,6 @@
 # Page crawler
 
-A playwright script to get FIBA game match results from FIBA World Cup 2023 and Olympics 2020.
+A playwright script to get FIBA game match results from FIBA World Cup 2023, 2019, 2014 and Olympics 2020.
 
 ## Files
 
