@@ -2,6 +2,12 @@
 
 A playwright script to get FIBA game match results from FIBA World Cup 2023, 2019, 2014 and Olympics 2020 and 2016.
 
+This tool is used to create FIBA games in PGN format. They are used to generate rating list using bayeselo rating system which are used in the two articles.
+
+[FIBA Rating Estimate](https://fibarating.blogspot.com/2023/09/fiba-rating-estimate.html)
+
+[FIBA Bayeselo Ranking](https://fibarating.blogspot.com/2023/09/fiba-bayeselo-ranking.html)
+
 ## Files
 
 #### 1. worldcup2023.py
