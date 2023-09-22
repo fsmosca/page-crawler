@@ -1,37 +1,40 @@
 # Page crawler
 
-A playwright script to get FIBA game match results from FIBA World Cup 2023, 2019, 2014 and Olympics 2020.
+A playwright script to get FIBA game match results from FIBA World Cup 2023, 2019, 2014 and Olympics 2020 and 2016.
 
 ## Files
 
 #### 1. worldcup2023.py
 
-Used to get match result from the world cup 2023 games. Results are saved in csv file. You need to create a folder path `data/worldcup/2023` to save the csv file.
+Used to get match results from the world cup 2023 games. Results are saved in csv file. You need to create a folder path `data/worldcup/2023` to save the csv file.
 
-#### 2. olympics2020.py
-
-Used to get match result from the Tokyo olympics 2020 games. Results are saved in csv file. You need to create a folder path `data/olympics/2020` to save the csv file.
-
-#### 3. worldcup2019.py
+#### 2. worldcup2019.py
 
 Used to get match results from world cup 2019. Results are saved in csv file. You need to create a folder path `data/worldcup/2019` to save the csv file.
 
-#### 4. worldcup2014.py
+#### 3. worldcup2014.py
 
 Used to get match results from world cup 2014. Results are saved in csv file. You need to create a folder path `data/worldcup/2014` to save the csv file.
+
+#### 4. olympics2020.py
+
+Used to get match results from the Tokyo, Japan olympics 2020 games. Results are saved in csv file. You need to create a folder path `data/olympics/2020` to save the csv file.
+
+#### 5. olympics2016.py
+
+Used to get match result from the  Rio de Janeiro, Brazil olympics 2016 games. Results are saved in csv file. You need to create a folder path `data/olympics/2016` to save the csv file.
 
 ## Setup
 
 1. Install latest Python
 2. Clone this repo with `git clone https://github.com/fsmosca/page-crawler.git`
 3. cd to page-crawler
-4. Create a folder path `data/worldcup/2023` similar to this repository
-5. Install dependencies with `pip install -r requirements.txt`
-6. Run the script with `python worldcup2023.py`
+4. Install dependencies with `pip install -r requirements.txt`
+5. Run the script with `python worldcup2023.py`
 
-Crawled match results will be saved under the data folder with filenames such as ANG.csv, USA.csv and others. Step 4 is important, don't miss it.
+Crawled match results will be saved under the `data/olympics<year>` and `data/worldcup/<year>` folder with filenames such as ANG.csv, USA.csv and others.
 
-**Typical output**
+#### Typical output
 
 ANG.csv
 ```
