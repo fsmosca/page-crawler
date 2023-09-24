@@ -64,7 +64,7 @@ def get_results(url):
                 page.goto(url, timeout=30000)
                 a = page.query_selector('div.schedule_list.gmt')
                 b = a.query_selector('ul')
-                c = b.query_selector_all('div.games_item')
+                c = b.query_selector_all('div.game_item')
             except Exception as exc:
                 repeat += 1
                 print(f'{repr(exc)}')
